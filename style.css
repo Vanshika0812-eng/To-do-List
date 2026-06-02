@@ -32,15 +32,16 @@ font-family: 'Poppins', sans-serif;
     margin:40px 20px 20px 0px;
     justify-content: center;
     flex-wrap: wrap;
-    
+
 }
 .listbody{
-    width:50%;
+    width:70%;
     border:10px solid #0000003a;
     margin:10px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
 }
 .listbody h1{
     margin: 20px 0px;
@@ -61,6 +62,10 @@ font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
+}
+.icons ul{
+    color:#646161;
+    font-weight: 400;
 }
 .priority{
         background: rgb(127, 232, 127);
@@ -90,6 +95,9 @@ font-family: 'Poppins', sans-serif;
 #high{
     border-bottom: 0.2px solid #575050;
 }
+#due_date{
+    width:100%;
+}
 .complete_date{
     background: rgb(241, 241, 78);
     color:rgb(55, 55, 51);
@@ -99,4 +107,16 @@ font-family: 'Poppins', sans-serif;
     background: rgb(178, 178, 246);
     color:rgb(55, 55, 51);
     font-weight: 600;
+}
+.listbody .list-content{
+    width:100%;
+    border: 2px solid #00000021;
+    position:absolute;
+    top:200px;
+    right:0;
+    display:none;
+    list-style-type:square;
+    padding:20px;
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
